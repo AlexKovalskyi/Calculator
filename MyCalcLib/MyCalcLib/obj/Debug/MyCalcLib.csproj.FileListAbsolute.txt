@@ -3,3 +3,8 @@ I:\GitHub\Test\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
 I:\GitHub\Test\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
 I:\GitHub\Test\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
 I:\GitHub\Test\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb

@@ -6,3 +6,12 @@ I:\GitHub\Test\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
 I:\GitHub\Test\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLib.Tests.csprojResolveAssemblyReference.cache
 I:\GitHub\Test\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
 I:\GitHub\Test\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLib.Tests.csprojResolveAssemblyReference.cache
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
