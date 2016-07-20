@@ -14,5 +14,14 @@ namespace MyCalcLib
 			return x + y;
 		}
 
+        public int Substract(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Multiply(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
