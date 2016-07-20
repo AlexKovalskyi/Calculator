@@ -8,7 +8,6 @@ namespace MyCalcLib
 {
     public class MyCalc
     {
-
 		public int Sum ( int x, int y )
 		{
 			return x + y;
@@ -17,14 +16,16 @@ namespace MyCalcLib
         public int Substract(int a, int b)
         {
 			return a - b;
-			
         }
 
         public int Multiply(int a, int b)
         {
 			return a * b;
         }
-		
 
-	}
+        public int Devide(int i, int i1)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

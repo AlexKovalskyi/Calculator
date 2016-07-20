@@ -13,3 +13,8 @@ I:\GitHub\Tests3\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
 I:\GitHub\Tests3\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
 I:\GitHub\Tests3\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
 I:\GitHub\Tests3\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
