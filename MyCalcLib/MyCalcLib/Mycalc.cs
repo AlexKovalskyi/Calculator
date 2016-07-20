@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyCalcLib
 {
-    public class MyCalc
+    public class Calculator  //change clss name
     {
 		public int Sum ( int x, int y )
 		{
@@ -23,9 +23,9 @@ namespace MyCalcLib
 			return a * b;
         }
 
-        public int Devide(int i, int i1)
+        public int Devide(int a, int b)  // add new meyhod
         {
-            throw new NotImplementedException();
+            return a-b;
         }
     }
 }

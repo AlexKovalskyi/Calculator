@@ -18,3 +18,8 @@ C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pd
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb

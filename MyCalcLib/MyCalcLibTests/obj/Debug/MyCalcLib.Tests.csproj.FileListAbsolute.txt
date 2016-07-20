@@ -33,3 +33,11 @@ C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\ru\Micr
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLib.Tests.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.pdb
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLib.Tests.csprojResolveAssemblyReference.cache
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb

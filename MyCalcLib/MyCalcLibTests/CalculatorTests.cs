@@ -17,7 +17,7 @@ namespace MyCalcLibTests
 
             // act
 
-            MyCalc c = new MyCalc();
+            Calculator c = new Calculator();
             int actual = c.Sum(x, y);
 
             //assert
@@ -30,7 +30,7 @@ namespace MyCalcLibTests
             int a = 11;
             int b = 3;
 
-            MyCalc calc = new MyCalc();
+            Calculator calc = new Calculator();
             int actual = calc.Multiply(a, b);
 
             Assert.AreEqual(actual, 33);
@@ -42,32 +42,32 @@ namespace MyCalcLibTests
             int a = 11;
             int b = 3;
 
-            MyCalc calc = new MyCalc();
+            Calculator calc = new Calculator();
             int actual = calc.Substract(a, b);
 
             Assert.AreEqual(actual, 11 - 3);
         }
 
-        //TODO: Add division. Recall information about data types http://metanit.com/sharp/tutorial/2.1.php
+        
         [TestMethod]
         public void CheckDivision()
         {
             int a = 11;
             int b = 3;
 
-            MyCalc calc = new MyCalc();
+            Calculator calc = new Calculator();
             float actual = calc.Devide(a, b);
 
             Assert.AreEqual(actual, 11 - 3);
         }
 
-        //TODO: Class name should be close to its logical context. (Whithout 'my', 'his', 'cool', etc.)
+        
         [TestMethod]
         public void CheckClassName()
         {
             string expectedName = "Calculator";
 
-            string actualName = nameof(MyCalc);
+            string actualName = nameof(Calculator);
 
             Assert.AreEqual(expectedName, actualName);
         }
