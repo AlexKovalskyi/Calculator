@@ -23,8 +23,7 @@ namespace MyCalcLibTests
             //assert
             Assert.AreEqual(expected, actual);
         }
-
-        //TODO: Add multiplication function.
+		
         [TestMethod]
         public void CheckMultiplication()
         {
@@ -37,7 +36,7 @@ namespace MyCalcLibTests
             Assert.AreEqual(actual, 33);
         }
 
-        //TODO: Add substraction function.
+        
         [TestMethod]
         public void CheckSubstractrion()
         {

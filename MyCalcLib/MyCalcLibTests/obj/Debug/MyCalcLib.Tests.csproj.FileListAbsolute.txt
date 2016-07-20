@@ -15,3 +15,11 @@ C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\bin
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLib.Tests.csprojResolveAssemblyReference.cache
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.dll
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.pdb
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.dll
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLib.Tests.csprojResolveAssemblyReference.cache
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
+I:\GitHub\Tests3\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb

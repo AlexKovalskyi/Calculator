@@ -8,3 +8,8 @@ C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\bin\Debu
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+I:\GitHub\Tests3\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+I:\GitHub\Tests3\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Tests3\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.csprojResolveAssemblyReference.cache
+I:\GitHub\Tests3\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+I:\GitHub\Tests3\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
