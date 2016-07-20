@@ -1,0 +1,8 @@
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.dll
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.pdb
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.dll
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.csprojResolveAssemblyReference.cache
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
+I:\GitHub\Test\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
