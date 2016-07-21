@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-//TODO: Easter Egg =) http://metanit.com/sharp/tutorial/ is your bible.
+//TODO: 1337  Easter Egg =) http://metanit.com/sharp/tutorial/ is your bible.
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.

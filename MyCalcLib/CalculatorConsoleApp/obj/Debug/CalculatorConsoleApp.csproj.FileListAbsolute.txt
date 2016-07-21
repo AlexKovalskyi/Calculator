@@ -1,0 +1,6 @@
+W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
+W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
