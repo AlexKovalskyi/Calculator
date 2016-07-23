@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyCalcLib\MyCalcLib.csproj">
+    <ProjectReference Include="..\MyCalcLib\CalcLib.csproj">
       <Project>{907cf36d-adfa-45c7-a644-efd5e6caff96}</Project>
-      <Name>MyCalcLib</Name>
+      <Name>CalcLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

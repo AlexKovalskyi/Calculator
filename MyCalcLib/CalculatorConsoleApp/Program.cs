@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalcLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +10,8 @@ namespace CalculatorConsoleApp
     class Program
     {
         static void Main(string[] args)
-        {
-            RunCalculator();
+		{ 
+			RunCalculator();
         }
        
         static void RunCalculator()

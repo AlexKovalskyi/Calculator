@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MyCalcLib;
+using CalcLib;
 
-namespace MyCalcLibTests
+namespace CalcLibTests
 {
 	[TestClass]
 	public class CalculatorTests

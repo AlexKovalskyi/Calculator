@@ -4,3 +4,11 @@ W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsole
 W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
 W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
 W:\Projects\git\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.dll
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache

@@ -1,19 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MyCalcLib;
+using CalcLib;
 using System;
 
-namespace MyCalcLibTests
+namespace CalcLibTests
 {
     [TestClass]
     public class ArgumentsModelTests
     {
-        //TODO: 1 Rename class according its context.
         [TestMethod]
         public void CheckClassName()
         {
             var expectedName = "Arguments";
 
-            var actualName = nameof(UndefinedClass);
+            var actualName = nameof(Arguments);
 
             Assert.AreEqual(expectedName, actualName);
         }
@@ -22,7 +21,7 @@ namespace MyCalcLibTests
         [TestMethod]
         public void CheckArgAPropeprty()
         {
-            var args = Activator.CreateInstance(typeof(UndefinedClass));
+            var args = Activator.CreateInstance(typeof(Arguments));
 
             var exists = false;
             foreach (var prop in args.GetType().GetProperties())
@@ -43,7 +42,7 @@ namespace MyCalcLibTests
         [TestMethod]
         public void CheckArgBPropeprty()
         {
-            var args = Activator.CreateInstance(typeof(UndefinedClass));
+            var args = Activator.CreateInstance(typeof(Arguments));
 
             var exists = false;
             foreach (var prop in args.GetType().GetProperties())

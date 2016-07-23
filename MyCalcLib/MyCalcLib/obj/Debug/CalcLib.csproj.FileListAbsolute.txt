@@ -1,0 +1,4 @@
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
