@@ -2,3 +2,7 @@ I:\GitHub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
 I:\GitHub\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
 I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
 I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb

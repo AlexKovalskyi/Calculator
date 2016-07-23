@@ -6,3 +6,13 @@ I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
 I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\CalcLib.Tests.csprojResolveAssemblyReference.cache
 I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
 I:\GitHub\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLibTests.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\MyCalcLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\CalcLib.Tests.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb

@@ -12,3 +12,11 @@ I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pd
 I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.dll
 I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.pdb
 I:\GitHub\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
