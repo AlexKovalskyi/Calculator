@@ -70,10 +70,11 @@ namespace CalculatorConsoleApp
 					Console.WriteLine("invalid operation");
 				}
 			}
-
-
-
+			
 		}
-
+		public void Print(int firstNumb, char operation, int secondNumb, int result)
+		{
+			Console.WriteLine("{0} {1} {2} = {3}", firstNumb, operation, secondNumb, result);
+		}
 	}
 }
