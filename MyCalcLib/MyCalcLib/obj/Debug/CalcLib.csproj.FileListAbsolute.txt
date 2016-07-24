@@ -6,4 +6,3 @@ C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.dl
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\bin\Debug\MyCalcLib.pdb
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.dll
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\MyCalcLib\obj\Debug\MyCalcLib.pdb
-I:\GitHub\Tests\MyCalcLib\MyCalcLib\obj\Debug\CalcLib.csprojResolveAssemblyReference.cache
