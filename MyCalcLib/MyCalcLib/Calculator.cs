@@ -4,15 +4,15 @@ namespace CalcLib
 {
 	public class Calculator
 	{
-        //TODO: Pass Arguments class instead x and y
-		public int Sum(int x, int y) => x + y;
 
-		public int Substract ( int a, int b ) => a - b;
+		public int Sum(Arguments args) => args.A + args.B;
 
-		public int Multiply ( int a, int b ) => a * b;
+		public int Substract(Arguments args) => args.A - args.B;
 
-		public int Devide ( int a, int b ) => a - b;
+		public int Multiply (Arguments args) => args.A * args.B;
 
-		public int Modulo ( int a, int b ) => a % b;
+		public int Devide (Arguments args) => args.A / args.B;
+
+		public int Modulo (Arguments args) => args.A % args.B;
 	}
 }

@@ -9,12 +9,11 @@ namespace CalcLib
 {
     public class Arguments
     {
-        //TODO: Set access.
-        public int A { get; set; }
+        public int A { get; private set; }
         
-        public int B { get; set; }
+        public int B { get; private set; }
 
-        public Arguments(int firstNumb, int secondNumb)
+        public Arguments (int firstNumb, int secondNumb)
         {
             A = firstNumb;
             B = secondNumb;

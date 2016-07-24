@@ -6,19 +6,15 @@ namespace CalcLibTests
 	[TestClass]
 	public class CalculatorTests
 	{
+		Arguments args = new Arguments(11, 3);
 		[TestMethod]
 		public void Sum_10and20_30returned()
 		{
 			//arrange
-
-			int x = 10;
-			int y = 20;
-			int expected = 30;
-
+			int expected = 11+3;
 			// act
-
 			Calculator c = new Calculator();
-			int actual = c.Sum(x, y);
+			int actual = c.Sum(args);
 
 			//assert
 			Assert.AreEqual(expected, actual);
@@ -27,50 +23,43 @@ namespace CalcLibTests
 		[TestMethod]
 		public void CheckMultiplication()
 		{
-			int a = 11;
-			int b = 3;
+			int expected = 11*3;
 
 			Calculator calc = new Calculator();
-			int actual = calc.Multiply(a, b);
+			int actual = calc.Multiply(args);
 
-			Assert.AreEqual(actual, 33);
+			Assert.AreEqual(actual, expected);
 		}
 		
 		[TestMethod]
 		public void CheckSubstractrion()
 		{
-			int a = 11;
-			int b = 3;
-
+			int expected = 11-3;
 			Calculator calc = new Calculator();
-			int actual = calc.Substract(a, b);
+			int actual = calc.Substract(args);
 
-			Assert.AreEqual(actual, 11 - 3);
+			Assert.AreEqual(actual,expected);
 		}
 
 		
 		[TestMethod]
 		public void CheckDivision()
 		{
-			int a = 11;
-			int b = 3;
-
+			int expected = 11 / 3;
 			Calculator calc = new Calculator();
-			float actual = calc.Devide(a, b);
+			float actual = calc.Devide(args);
 
-			Assert.AreEqual(actual, 11 - 3);
+			Assert.AreEqual(actual, expected);
 		}
 
 		[TestMethod]
 		public void CheckModulo()
 		{
-			int a = 11;
-			int b = 3;
-
+			int expected = 11 % 3;
 			Calculator calc = new Calculator();
-			int actual = calc.Modulo(a, b);
+			int actual = calc.Modulo(args);
 
-			Assert.AreEqual(actual, 11 % 3);
+			Assert.AreEqual(actual, expected);
 		}
 
 
