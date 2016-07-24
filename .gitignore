@@ -8,8 +8,8 @@
 /MyCalcLib/MyManualTest/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 /MyCalcLib/MyManualTest/obj/Debug
 /MyCalcLib/MyCalcLib/obj/Debug/CalcLib.csprojResolveAssemblyReference.cache
-/MyCalcLib/MyCalcLib/obj/Debug
+#/MyCalcLib/MyCalcLib/obj/Debug
 /MyCalcLib/CalculatorConsoleApp/bin/Debug/CalculatorConsoleApp.vshost.exe.manifest
 /MyCalcLib/CalculatorConsoleApp/bin/Debug/CalculatorConsoleApp.vshost.exe
-/MyCalcLib/CalculatorConsoleApp/bin/Debug
-/MyCalcLib
+#/MyCalcLib/CalculatorConsoleApp/bin/Debug
+#/MyCalcLib
