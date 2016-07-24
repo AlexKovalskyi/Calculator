@@ -1,9 +1,12 @@
 ﻿using CalcLib;
 using System;
+
+//TODO: Remove unused namespaces.
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyCalcLib;
 
 namespace CalculatorConsoleApp
 {
@@ -13,11 +16,11 @@ namespace CalculatorConsoleApp
 		{
 			try
 			{
-				RunCalculator();
+				RunCalculator(); //TODO: Rename to 'RunCalculatorLoop();'
 			}
 			catch (Exception)
 			{
-				Console.WriteLine("Error : please try again. Maybe you use wrong argments");
+				Console.WriteLine("Error : please try again. Maybe you are using wrong argments");
 				Console.WriteLine("Program will be close");
 				Console.ReadLine();
 			}
@@ -25,13 +28,16 @@ namespace CalculatorConsoleApp
 
 		static void RunCalculator()
 		{
-			int answer;
+		   
+
 			PrintResult printOperationResult = new PrintResult();
-			
-			Console.WriteLine("Best of the best Calculator with 5 operation");
+			Console.WriteLine("Best of the best Calculator with 5 operations");
 			while (true)
 			{
-				Console.WriteLine("Enter one of the operation : +, -, *, /, %");
+                OperationDelegate operationDelegate;
+
+			    int answer = 1;
+                Console.WriteLine("Enter one of the operation : +, -, *, /, %");
 				char operation = Convert.ToChar(Console.ReadLine());
 				Console.WriteLine("Write your first number: ");
 				int firstNumber = Convert.ToInt32(Console.ReadLine());
@@ -40,10 +46,12 @@ namespace CalculatorConsoleApp
 				
 				Arguments arguments = new Arguments(firstNumber, secondNumber);
 				Calculator calc = new Calculator();
+
+                //TODO: Change to switch
 				if (operation == '+')
 				{
-					answer = calc.Sum(arguments);
-					printOperationResult.Print (firstNumber, operation, secondNumber, answer);
+				    answer = calc.Sum(arguments);
+					printOperationResult.Print(firstNumber, operation, secondNumber, answer);
 				}
 				else if (operation == '/')
 				{
@@ -67,11 +75,21 @@ namespace CalculatorConsoleApp
 				}
 				else
 				{
+                    //TODO: in 'switch' statement it will be 'default'
 					Console.WriteLine("invalid operation");
+				    throw new Exception();
 				}
-			}
-			
-		}
+
+			    operationDelegate = null;
+			    if (operationDelegate != null)
+			    {
+			        var result = operationDelegate.Invoke(arguments);
+
+                }
+            }
+        }
+
+        //TODO: Remove
 		public void Print(int firstNumb, char operation, int secondNumb, int result)
 		{
 			Console.WriteLine("{0} {1} {2} = {3}", firstNumb, operation, secondNumb, result);
