@@ -6,7 +6,7 @@ namespace CalcLibTests
 	[TestClass]
 	public class CalculatorTests
 	{
-		Arguments args = new Arguments(11, 3);
+		private Arguments args = new Arguments(11, 3);
 		[TestMethod]
 		public void Sum_10and20_30returned()
 		{
