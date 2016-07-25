@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CalcLib;
 
-namespace CalculatorConsoleApp
+namespace MyCalcLib
 {
-	public class WriteMassageToConsole
+	public class OutputService
 	{
 		public void Print(int firstNumb, char operation, int secondNumb, int result)
 		{

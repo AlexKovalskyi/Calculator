@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="OperationDelegate.cs" />
-    <Compile Include="PrintResult.cs" />
+    <Compile Include="OutputService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arguments.cs" />
   </ItemGroup>
