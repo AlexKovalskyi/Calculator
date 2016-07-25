@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorConsoleApp
 {
-    //TODO: Rename
-	public class PrintResult
+	public class WriteMassageToConsole
 	{
 		public void Print(int firstNumb, char operation, int secondNumb, int result)
 		{
