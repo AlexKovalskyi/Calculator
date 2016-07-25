@@ -11,50 +11,8 @@ namespace MyManualTest
     {
         static void Main(string[] args)
         {
-            MyDelegate del = new MyDelegate(Print);
-            del += Print;
-            del += Print;
-            del += Print;
-            del += Print;
-            del += Print;
-            del += Print;
-            del += Print;
 
-            foreach (var methodToInvoke in del.GetInvocationList())
-            {
-                Console.WriteLine(methodToInvoke.Method);
-            }
-
-            //del.Invoke(); 
         }
-
-        static void Print()
-        {
-            Console.WriteLine("Print was invoked ... ");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         static void ArgumentsCheck()
         {
@@ -67,7 +25,6 @@ namespace MyManualTest
             Assert.AreEqual(res, 99);
             Console.WriteLine(res);
         }
-
 
         static void SomeCode(Arguments arg)
         {

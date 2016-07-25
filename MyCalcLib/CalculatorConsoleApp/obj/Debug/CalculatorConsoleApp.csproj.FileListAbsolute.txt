@@ -20,3 +20,11 @@ C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\bin\Debug\M
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
 C:\Users\LAPTOP-PC\Source\Repos\Tests\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.dll
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.pdb
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb

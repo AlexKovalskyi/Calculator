@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcLib", "MyCalcLib\CalcLib.csproj", "{907CF36D-ADFA-45C7-A644-EFD5E6CAFF96}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcLib.Tests", "MyCalcLibT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConsoleApp", "CalculatorConsoleApp\CalculatorConsoleApp.csproj", "{B85A55EB-A3C8-4CAE-9449-E9378C9030F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyManualTest", "MyManualTest\MyManualTest.csproj", "{A768B3E4-CB51-4EEA-B379-F80B539A8433}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSnippets", "MyManualTest\CodeSnippets.csproj", "{A768B3E4-CB51-4EEA-B379-F80B539A8433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
