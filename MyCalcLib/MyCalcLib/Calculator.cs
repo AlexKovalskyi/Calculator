@@ -22,14 +22,16 @@ namespace CalcLib
             while (true)
             {
 				outputService.PrintAvailableOperations();
+                //TODO: Remove to new class InputService to method ReadArgs();
 				char operation = Convert.ToChar(Console.ReadLine());
+                //TODO: Add 'OperationType ReadOperation();'
 				outputService.RequestFirstNumber();
                 int firstNumber = Convert.ToInt32(Console.ReadLine());
 				outputService.RequestSecondNumber();
                 int secondNumber = Convert.ToInt32(Console.ReadLine());
 
                 Arguments arguments = new Arguments(firstNumber, secondNumber);
-				OperationDelegate operationDelegate; //TODO: Remove declaring closer to usage.
+				OperationDelegate operationDelegate;
 				switch (operation)
                 {
                     case '+':

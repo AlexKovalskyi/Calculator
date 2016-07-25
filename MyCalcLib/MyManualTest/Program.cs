@@ -2,18 +2,18 @@
 using CalcLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MyManualTest
+namespace SharedCodeSnippets
 {
-
     public delegate void MyDelegate();
 
     class Program
     {
         static void Main(string[] args)
         {
-
+            Inheritence.Inheritence.Run();
         }
 
+        //TODO: Remove to some folder.
         static void ArgumentsCheck()
         {
             Arguments arguments = new Arguments(33, 3);
