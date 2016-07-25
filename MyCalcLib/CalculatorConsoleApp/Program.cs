@@ -1,19 +1,16 @@
 ﻿using CalcLib;
 using System;
-using MyCalcLib;
 
 namespace MyCalcLib
 {
-	class Program
+    class Program
 	{
 		static void Main(string[] args)
 		{
-		
 			try
 			{
 				Calculator runCalculatorLoop = new Calculator();
 				runCalculatorLoop.RunCalculatorLoop();
-				
 			}
 			catch (Exception)
 			{
@@ -22,6 +19,5 @@ namespace MyCalcLib
 				Console.ReadLine();
 			}
 		}
-
 	}
 }
