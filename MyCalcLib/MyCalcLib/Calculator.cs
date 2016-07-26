@@ -11,7 +11,7 @@ namespace CalcLib
 
         public int Multiply(Arguments args) => args.A * args.B;
 
-        public int Devide(Arguments args) => args.A / args.B;
+        public int Divide(Arguments args) => args.A / args.B;
 
         public int Modulo(Arguments args) => args.A % args.B;
 
@@ -22,50 +22,44 @@ namespace CalcLib
             {
 
 				OutputService outputService = new OutputService();
-				outputService.PrintAvailableOperations();
-				//TODO: Remove to new class InputService to method ReadArgs();
-				char operation = Convert.ToChar(Console.ReadLine());
-                //TODO: Add 'OperationType ReadOperation();'
-				outputService.RequestFirstNumber();
-				int firstNumber = Convert.ToInt32(Console.ReadLine());
-				outputService.RequestSecondNumber();
-				int secondNumber = Convert.ToInt32(Console.ReadLine());
-                Arguments arguments = new Arguments(firstNumber, secondNumber);
-				
+				InputService inputService = new InputService();
+				OperationType operation = inputService.ReadOperatoin();
+				Arguments arguments = inputService.ReadArgs();
 				OperationDelegate operationDelegate;
 				switch (operation)
-                {
-                    case '+':
-                        operationDelegate = Sum;
-                        break;
+				{
+					case OperationType.Sum:
+						operationDelegate = Sum;
+						break;
 
-                    case '/':
-                        operationDelegate = Devide;
-                        break;
+					case OperationType.Div:
+						operationDelegate = Divide;
+						break;
 
-                    case '*':
-                        operationDelegate = Multiply;
-                        break;
+					case OperationType.Mul:
+						operationDelegate = Multiply;
+						break;
 
-                    case '-':
-                        operationDelegate = Substract;
-                        break;
+					case OperationType.Sub:
+						operationDelegate = Substract;
+						break;
 
-                    case '%':
-                        operationDelegate = Modulo;
-                        break;
+					case OperationType.Mod:
+						operationDelegate = Modulo;
+						break;
 
-                    default:
-                        Console.WriteLine("Invalid operation");
-                        throw new Exception();
-                }
+					default:
+						Console.WriteLine("Invalid operation");
+						throw new Exception();
+				}
 
-                if (operationDelegate != null)
-                {
-                    int result = operationDelegate.Invoke(arguments);
-                    outputService.Print(arguments.A, operation, arguments.B, result);
-                }
-            }
+				if (operationDelegate != null)
+				{
+					
+					int result = operationDelegate.Invoke(arguments);
+					outputService.Print(arguments.A, operation, arguments.B, result);
+				}
+			}
         }
     }
 }

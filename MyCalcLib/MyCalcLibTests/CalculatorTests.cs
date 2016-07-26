@@ -47,7 +47,7 @@ namespace CalcLibTests
 		{
 			int expected = 11 / 3;
 			Calculator calc = new Calculator();
-			float actual = calc.Devide(args);
+			float actual = calc.Divide(args);
 
 			Assert.AreEqual(actual, expected);
 		}
