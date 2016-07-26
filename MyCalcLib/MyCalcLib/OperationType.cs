@@ -15,26 +15,26 @@ namespace MyCalcLib
         Mod = '%'
     }
 
-	public class CodeSample
-	{
-		public OperationType GetTypeFromSwitch()
-		{
-			var operationType = OperationType.Sum;
-			int returnedValueType = -1;
+	//public class CodeSample
+	//{
+	//	public OperationType GetTypeFromSwitch()
+	//	{
+	//		var operationType = OperationType.Sum;
+	//		int returnedValueType = -1;
 
-			switch (operationType)
-			{
-				case OperationType.Sum:
-					op;
-					break;
-				case OperationType.Two:
-					returnedValueType = (int)OperationType.Two;
-					break;
+	//		switch (operationType)
+	//		{
+	//			case OperationType.Sum:
+	//				op;
+	//				break;
+	//			case OperationType.Two:
+	//				returnedValueType = (int)OperationType.Two;
+	//				break;
 
-			}
+	//		}
 
-			return (OperationType)returnedValueType;
-		}
-	}
+	//		return (OperationType)returnedValueType;
+	//	}
+	//}
 
 }

@@ -4,7 +4,7 @@ using CalcLib;
 
 namespace SharedCodeSnippets.notes
 {
-	class notes
+    static class CheckArguments
 	{
 		static void ArgumentsCheck()
 		{

@@ -53,9 +53,12 @@
     <Compile Include="Inheritence\Store.cs" />
     <Compile Include="Inheritence\Truck.cs" />
     <Compile Include="Inheritence\Car.cs" />
-    <Compile Include="notes\notes.cs" />
+    <Compile Include="CheckArguments\CheckArguments.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefTypePassing\Man.cs" />
+    <Compile Include="RefTypePassing\RegTypeUsage.cs" />
+    <Compile Include="RefTypePassing\Shark.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

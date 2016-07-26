@@ -5,12 +5,12 @@ namespace MyCalcLib
 {
 	class InputService
 	{
+        private OutputService outputService;
 
-		public OutputService outputService = new OutputService();
 		public Arguments  ReadArgs()
 		{
-
-			outputService.RequestFirstNumber();
+            outputService = new OutputService();
+            outputService.RequestFirstNumber();
 	
 			int firstNumber = Convert.ToInt32(Console.ReadLine());
 			outputService.RequestSecondNumber();
@@ -24,9 +24,8 @@ namespace MyCalcLib
 
 		public OperationType ReadOperatoin()
 		{
-			outputService.PrintAvailableOperations();
+            outputService.PrintAvailableOperations();
 			return (OperationType) Convert.ToChar(Console.ReadLine());
-
 		}
 	}
 }

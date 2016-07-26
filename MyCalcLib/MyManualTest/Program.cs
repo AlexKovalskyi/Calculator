@@ -1,6 +1,7 @@
 ﻿using System;
 using CalcLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SharedCodeSnippets.RefTypePassing;
 
 namespace SharedCodeSnippets
 {
@@ -10,9 +11,7 @@ namespace SharedCodeSnippets
     {
         static void Main(string[] args)
         {
-            Inheritence.Inheritence.Run();
+            ReferenceTypeUsage.Run();
         }
-
-        
     }
 }
