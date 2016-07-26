@@ -8,33 +8,33 @@ namespace MyCalcLib
 {
     public enum OperationType
     {
-        One = 1,
-        Two = 0,
-        Three = 2,
-        Four = 4,
-        Nothing
+        Sum = '+',
+        Sub = '-',
+        Mul = '*',
+        Dev = '/',
+        Mod = '%'
     }
 
-    public class CodeSample
-    {
-        public OperationType GetTypeFromSwitch()
-        {
-            var operationType = OperationType.Three;
-            int returnedValueType = -1;
+	public class CodeSample
+	{
+		public OperationType GetTypeFromSwitch()
+		{
+			var operationType = OperationType.Sum;
+			int returnedValueType = -1;
 
-            switch (operationType)
-            {
-                    case OperationType.Three:
-                        Console.WriteLine("Some methods...");
-                    break;
-                    case OperationType.Two:
-                        returnedValueType = (int)OperationType.Two;
-                    break;
+			switch (operationType)
+			{
+				case OperationType.Sum:
+					op;
+					break;
+				case OperationType.Two:
+					returnedValueType = (int)OperationType.Two;
+					break;
 
-            }
+			}
 
-            return (OperationType)returnedValueType;
-        }
-    }
+			return (OperationType)returnedValueType;
+		}
+	}
 
 }

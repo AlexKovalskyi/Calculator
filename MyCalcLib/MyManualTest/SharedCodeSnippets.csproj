@@ -53,6 +53,7 @@
     <Compile Include="Inheritence\Store.cs" />
     <Compile Include="Inheritence\Truck.cs" />
     <Compile Include="Inheritence\Car.cs" />
+    <Compile Include="notes\notes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

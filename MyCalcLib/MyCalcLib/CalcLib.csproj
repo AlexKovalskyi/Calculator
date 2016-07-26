@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="InputService.cs" />
     <Compile Include="OperationDelegate.cs" />
     <Compile Include="OperationType.cs" />
     <Compile Include="OutputService.cs" />

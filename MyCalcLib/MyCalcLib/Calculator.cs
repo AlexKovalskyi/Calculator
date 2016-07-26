@@ -17,20 +17,21 @@ namespace CalcLib
 
         public void RunCalculatorLoop()
         {
-            OutputService outputService = new OutputService();
             Console.WriteLine("Best of the best Calculator with 5 operations");
             while (true)
             {
+
+				OutputService outputService = new OutputService();
 				outputService.PrintAvailableOperations();
-                //TODO: Remove to new class InputService to method ReadArgs();
+				//TODO: Remove to new class InputService to method ReadArgs();
 				char operation = Convert.ToChar(Console.ReadLine());
                 //TODO: Add 'OperationType ReadOperation();'
 				outputService.RequestFirstNumber();
-                int firstNumber = Convert.ToInt32(Console.ReadLine());
+				int firstNumber = Convert.ToInt32(Console.ReadLine());
 				outputService.RequestSecondNumber();
-                int secondNumber = Convert.ToInt32(Console.ReadLine());
-
+				int secondNumber = Convert.ToInt32(Console.ReadLine());
                 Arguments arguments = new Arguments(firstNumber, secondNumber);
+				
 				OperationDelegate operationDelegate;
 				switch (operation)
                 {
