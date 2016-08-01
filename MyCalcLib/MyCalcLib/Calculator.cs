@@ -55,9 +55,9 @@ namespace CalcLib
 
 				if (operationDelegate != null)
 				{
-					
+					char x = 'i';	
 					int result = operationDelegate.Invoke(arguments);
-					outputService.Print(arguments.A, operation, arguments.B, result);
+					outputService.Print(arguments.A, x, arguments.B, result);
 				}
 			}
         }

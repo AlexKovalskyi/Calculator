@@ -9,10 +9,10 @@ namespace MyCalcLib
 		{
 			try
 			{
-				Calculator runCalculatorLoop = new Calculator();
-				runCalculatorLoop.RunCalculatorLoop();
+				Calculator calculator = new Calculator();
+				calculator.RunCalculatorLoop();
 			}
-			catch (Exception)
+			catch (Exception ex)
 			{
 				Console.WriteLine("Error : please try again. Maybe you are using wrong argments");
 				Console.WriteLine("Program will be close");

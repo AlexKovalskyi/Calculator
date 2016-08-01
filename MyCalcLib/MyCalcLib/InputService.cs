@@ -24,7 +24,9 @@ namespace MyCalcLib
 
 		public OperationType ReadOperatoin()
 		{
-            outputService.PrintAvailableOperations();
+
+			outputService = new OutputService();
+			outputService.PrintAvailableOperations();
 			return (OperationType)Convert.ToChar(Console.ReadLine());
 		}
 	}
