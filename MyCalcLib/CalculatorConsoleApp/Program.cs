@@ -9,7 +9,8 @@ namespace MyCalcLib
 		{
 			try
 			{
-				Calculator calculator = new Calculator();
+                ICalcFacade simpleCalcApp = new CalcApp(new CmdLineOutputService(), ..);
+                Calculator calculator = new Calculator();
 				calculator.RunCalculatorLoop();
 			}
 			catch (Exception ex)

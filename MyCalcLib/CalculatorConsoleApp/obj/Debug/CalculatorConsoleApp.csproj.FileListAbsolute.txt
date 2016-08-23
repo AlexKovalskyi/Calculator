@@ -28,3 +28,11 @@ W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.pd
 W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
 W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
 W:\Projects\git\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.dll
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\MyCalcLib.pdb
+C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache

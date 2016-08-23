@@ -3,6 +3,7 @@ using System;
 
 namespace CalcLib
 {
+    //TODO: Read: SIP - Single Responsibility Principle 231-242
     public class Calculator
     {
         public int Sum(Arguments args) => args.A + args.B;
@@ -20,8 +21,7 @@ namespace CalcLib
             Console.WriteLine("Best of the best Calculator with 5 operations");
             while (true)
             {
-
-				OutputService outputService = new OutputService();
+                IOutputService cmdOutput = new CmdLineOutputService();
 				InputService inputService = new InputService();
 				OperationType operation = inputService.ReadOperatoin();
 				Arguments arguments = inputService.ReadArgs();
@@ -55,9 +55,9 @@ namespace CalcLib
 
 				if (operationDelegate != null)
 				{
-					char x = 'i';	
 					int result = operationDelegate.Invoke(arguments);
-					outputService.Print(arguments.A, x, arguments.B, result);
+                    //TODO: Check operation printing.
+					cmdOutput.Print(arguments.A, (char)operation, arguments.B, result);
 				}
 			}
         }

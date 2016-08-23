@@ -5,11 +5,11 @@ namespace MyCalcLib
 {
 	class InputService
 	{
-        private OutputService outputService;
+        private CmdLineOutputService outputService;
 
 		public Arguments  ReadArgs()
 		{
-            outputService = new OutputService();
+            outputService = new CmdLineOutputService();
             outputService.RequestFirstNumber();
 	
 			int firstNumber = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace MyCalcLib
 		public OperationType ReadOperatoin()
 		{
 
-			outputService = new OutputService();
+			outputService = new CmdLineOutputService();
 			outputService.PrintAvailableOperations();
 			return (OperationType)Convert.ToChar(Console.ReadLine());
 		}
