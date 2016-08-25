@@ -36,3 +36,11 @@ C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorCon
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\Calculator.dll
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\Calculator.pdb
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\Calculator.dll
+I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\Calculator.pdb

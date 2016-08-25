@@ -20,46 +20,49 @@ namespace CalculatorLib
 
         public void Run()
         {
-            Console.WriteLine("Best of the best Calculator with 5 operations");
-            while (true)
-            {
-                OperationType operation = _inputService.ReadOperations();
-                Arguments arguments = _inputService.ReadArgs();
-                OperationDelegate operationDelegate;
-                switch (operation)
-                {
-                    case OperationType.Sum:
-                        operationDelegate = _calc.Sum;
-                        break;
+			OperationDelegate operationDelegate;
+			OperationType operation;
+			Arguments arguments;
+			do
+			{
+				operation = _inputService.ReadOperations();
+				arguments = _inputService.ReadArgs();
+				switch (operation)
+				{
+					case OperationType.Sum:
+						operationDelegate = _calc.Sum;
+						break;
 
-                    case OperationType.Div:
-                        operationDelegate = _calc.Divide;
-                        break;
+					case OperationType.Div:
+						operationDelegate = _calc.Divide;
+						break;
 
-                    case OperationType.Mul:
-                        operationDelegate = _calc.Multiply;
-                        break;
+					case OperationType.Mul:
+						operationDelegate = _calc.Multiply;
+						break;
 
-                    case OperationType.Sub:
-                        operationDelegate = _calc.Substract;
-                        break;
+					case OperationType.Sub:
+						operationDelegate = _calc.Substract;
+						break;
 
-                    case OperationType.Mod:
-                        operationDelegate = _calc.Modulo;
-                        break;
+					case OperationType.Mod:
+						operationDelegate = _calc.Modulo;
+						break;
 
-                    default:
-                        Console.WriteLine("Invalid operation");
-                        throw new Exception();
-                }
+					case OperationType.NOP:
+						continue;
 
-                if (operationDelegate != null)
-                {
-                    int result = operationDelegate.Invoke(arguments);
-                    //TODO: Check operation printing.
-                    _outputService.Print(arguments.A, (char)operation, arguments.B, result);
-                }
-            }
-        }
+					default:
+					Console.WriteLine("Invalid operation");
+					throw new Exception();
+				}
+
+				if (operationDelegate != null)
+				{
+					int result = operationDelegate.Invoke(arguments);
+					_outputService.Print(arguments.A, (char)operation, arguments.B, result);
+				}
+            } while (operation != OperationType.NOP && arguments != null);
+		}
     }
 }

@@ -2,6 +2,7 @@
 {
     public enum OperationType
     {
+		NOP = 0,
         Sum = '+',
         Sub = '-',
         Mul = '*',

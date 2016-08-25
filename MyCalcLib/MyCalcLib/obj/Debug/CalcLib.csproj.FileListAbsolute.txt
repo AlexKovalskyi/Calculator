@@ -17,3 +17,8 @@ C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\MyCalcLib\bin
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.pdb
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.dll
 C:\Users\artemm\Desktop\WinFormApp.SoccerClub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.pdb
+I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.dll
+I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.pdb
+I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.dll
+I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.pdb
+I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalcLib.csprojResolveAssemblyReference.cache

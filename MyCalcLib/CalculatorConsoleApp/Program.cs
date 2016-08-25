@@ -1,6 +1,6 @@
-﻿using CalculatorLib.Core;
+﻿using CalculatorLab.IOServices;
+using CalculatorLib.Core;
 using CalculatorLib.Interfaces;
-using CalculatorLib.IOServices;
 using System;
 
 namespace CalculatorLib
@@ -12,8 +12,8 @@ namespace CalculatorLib
 			try
 			{
                 Calculator calc = new Calculator();
-                IInputService inputService = new CmdInputService();
-                IOutputService outputService = new CmdLineOutputService();
+                IInputService inputService = new FileInputService(@"I:\GitHub\Calculator\MyCalcLib\Task.txt");
+                IOutputService outputService = new FileOutputService("CalculatorResult.txt");
                 ICalcFacade simpleCalcApp = new CalcApp(calc, inputService, outputService);
                 simpleCalcApp.Run();
 			}

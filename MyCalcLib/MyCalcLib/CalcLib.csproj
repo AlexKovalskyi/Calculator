@@ -43,7 +43,9 @@
     <Compile Include="CalcApp.cs" />
     <Compile Include="Core\Calculator.cs" />
     <Compile Include="Interfaces\IInputService.cs" />
-    <Compile Include="IOServices\InputService.cs" />
+    <Compile Include="IOServices\FileInputService.cs" />
+    <Compile Include="IOServices\FileOutputService.cs" />
+    <Compile Include="IOServices\CmdLineInputService.cs" />
     <Compile Include="Interfaces\ICalcFacade.cs" />
     <Compile Include="Interfaces\IOutputService.cs" />
     <Compile Include="CommonTypes\OperationDelegate.cs" />
