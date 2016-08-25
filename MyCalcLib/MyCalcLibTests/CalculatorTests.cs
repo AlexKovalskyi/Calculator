@@ -1,5 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CalcLib;
+using CalculatorLib;
+using CalculatorLib.CommonTypes;
+using CalculatorLib.Core;
 
 namespace CalcLibTests
 {
@@ -12,8 +14,8 @@ namespace CalcLibTests
 		{
 			//arrange
 			int expected = 11+3;
-			// act
-			Calculator c = new Calculator();
+            // act
+            Calculator c = new Calculator();
 			int actual = c.Sum(args);
 
 			//assert
@@ -25,7 +27,7 @@ namespace CalcLibTests
 		{
 			int expected = 11*3;
 
-			Calculator calc = new Calculator();
+            Calculator calc = new Calculator();
 			int actual = calc.Multiply(args);
 
 			Assert.AreEqual(actual, expected);
@@ -35,7 +37,7 @@ namespace CalcLibTests
 		public void CheckSubstractrion()
 		{
 			int expected = 11-3;
-			Calculator calc = new Calculator();
+            Calculator calc = new Calculator();
 			int actual = calc.Substract(args);
 
 			Assert.AreEqual(actual,expected);
@@ -46,7 +48,7 @@ namespace CalcLibTests
 		public void CheckDivision()
 		{
 			int expected = 11 / 3;
-			Calculator calc = new Calculator();
+            Calculator calc = new Calculator();
 			float actual = calc.Divide(args);
 
 			Assert.AreEqual(actual, expected);
@@ -56,7 +58,7 @@ namespace CalcLibTests
 		public void CheckModulo()
 		{
 			int expected = 11 % 3;
-			Calculator calc = new Calculator();
+            Calculator calc = new Calculator();
 			int actual = calc.Modulo(args);
 
 			Assert.AreEqual(actual, expected);

@@ -1,5 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CalcLib;
+﻿using CalculatorLib;
+using CalculatorLib.CommonTypes;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace CalcLibTests

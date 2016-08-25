@@ -7,8 +7,8 @@
     <ProjectGuid>{907CF36D-ADFA-45C7-A644-EFD5E6CAFF96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyCalcLib</RootNamespace>
-    <AssemblyName>MyCalcLib</AssemblyName>
+    <RootNamespace>Calculator</RootNamespace>
+    <AssemblyName>Calculator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,14 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="InputService.cs" />
-    <Compile Include="IOutputService.cs" />
-    <Compile Include="OperationDelegate.cs" />
-    <Compile Include="OperationType.cs" />
-    <Compile Include="CmdLineOutputService.cs" />
+    <Compile Include="CalcApp.cs" />
+    <Compile Include="Core\Calculator.cs" />
+    <Compile Include="Interfaces\IInputService.cs" />
+    <Compile Include="IOServices\InputService.cs" />
+    <Compile Include="Interfaces\ICalcFacade.cs" />
+    <Compile Include="Interfaces\IOutputService.cs" />
+    <Compile Include="CommonTypes\OperationDelegate.cs" />
+    <Compile Include="CommonTypes\OperationType.cs" />
+    <Compile Include="IOServices\CmdLineOutputService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Arguments.cs" />
+    <Compile Include="CommonTypes\Arguments.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

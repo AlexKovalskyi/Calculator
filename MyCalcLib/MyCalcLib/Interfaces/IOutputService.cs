@@ -1,4 +1,4 @@
-﻿namespace MyCalcLib
+﻿namespace CalculatorLib.Interfaces
 {
     public interface IOutputService
     {

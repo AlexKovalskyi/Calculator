@@ -1,7 +1,6 @@
-﻿using System;
-using CalcLib;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SharedCodeSnippets.RefTypePassing;
+﻿using SharedCodeSnippets.FunWithInterfaces;
+using SharedCodeSnippets.FunWithInterfaces.FlyableTypes;
+using System;
 
 namespace SharedCodeSnippets
 {
@@ -11,16 +10,60 @@ namespace SharedCodeSnippets
     {
         static void Main(string[] args)
 		{
-			foreach (string item in args)
-			{
+            Plane plane = new Plane();
+            plane.TakeOff();
+            IFlyable flyablePlane = plane;
+            flyablePlane.Fly();
 
-			}
-			OutputMethod();
-			Console.ReadLine();
-			//ReferenceTypeUsage.Run();
+            foreach (IFlyable item in new IFlyable[]{ new Bird(), flyablePlane, new DragonFly()})
+            {
+                item.Fly();
+            }
 		}
 
-		private static void OutputMethod()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private static void OldMain()
+        {
+            //foreach (string item in args)
+            //{
+
+            //}
+            //OutputMethod();
+            //Console.ReadLine();
+            //ReferenceTypeUsage.Run();
+        }
+        private static void OutputMethod()
 		{
 			// Настроить консольный интерфейс (CUI).
 			Console.Title = "My Rocking App";

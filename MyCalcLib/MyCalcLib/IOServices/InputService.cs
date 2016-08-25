@@ -1,10 +1,11 @@
-﻿using System;
-using CalcLib;
+﻿using CalculatorLib.CommonTypes;
+using CalculatorLib.Interfaces;
+using System;
 
-namespace MyCalcLib
+namespace CalculatorLib.IOServices
 {
-	class InputService
-	{
+	public class CmdInputService : IInputService
+    {
         private CmdLineOutputService outputService;
 
 		public Arguments  ReadArgs()
@@ -22,7 +23,7 @@ namespace MyCalcLib
 			return arguments;
 		}
 
-		public OperationType ReadOperatoin()
+		public OperationType ReadOperations()
 		{
 
 			outputService = new CmdLineOutputService();

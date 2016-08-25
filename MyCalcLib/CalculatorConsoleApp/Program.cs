@@ -1,7 +1,9 @@
-﻿using CalcLib;
+﻿using CalculatorLib.Core;
+using CalculatorLib.Interfaces;
+using CalculatorLib.IOServices;
 using System;
 
-namespace MyCalcLib
+namespace CalculatorLib
 {
     class Program
 	{
@@ -9,14 +11,16 @@ namespace MyCalcLib
 		{
 			try
 			{
-                ICalcFacade simpleCalcApp = new CalcApp(new CmdLineOutputService(), ..);
-                Calculator calculator = new Calculator();
-				calculator.RunCalculatorLoop();
+                Calculator calc = new Calculator();
+                IInputService inputService = new CmdInputService();
+                IOutputService outputService = new CmdLineOutputService();
+                ICalcFacade simpleCalcApp = new CalcApp(calc, inputService, outputService);
+                simpleCalcApp.Run();
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine("Error : please try again. Maybe you are using wrong argments");
-				Console.WriteLine("Program will be close");
+				Console.WriteLine("Error : please try again. Maybe you are using wrong argments.");
+				Console.WriteLine("Program will be close.");
 				Console.ReadLine();
 			}
 		}

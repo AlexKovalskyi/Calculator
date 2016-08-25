@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CalcLib;
+using CalculatorLib;
+using CalculatorLib.CommonTypes;
 
 namespace SharedCodeSnippets.notes
 {

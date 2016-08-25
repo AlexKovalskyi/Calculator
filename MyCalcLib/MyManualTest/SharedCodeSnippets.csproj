@@ -48,6 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DelegateExample.cs" />
+    <Compile Include="FunWithInterfaces\FlyableTypes\Bird.cs" />
+    <Compile Include="FunWithInterfaces\FlyableTypes\DragonFly.cs" />
+    <Compile Include="FunWithInterfaces\FlyableTypes\Plane.cs" />
+    <Compile Include="FunWithInterfaces\IFlyable.cs" />
     <Compile Include="Inheritence\Inheritence.cs" />
     <Compile Include="Inheritence\Miniwan.cs" />
     <Compile Include="Inheritence\Store.cs" />
@@ -69,6 +73,7 @@
       <Name>CalcLib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,7 +1,7 @@
-﻿using System;
-using CalcLib;
+﻿using CalculatorLib.Interfaces;
+using System;
 
-namespace MyCalcLib
+namespace CalculatorLib.IOServices
 {
 	public class CmdLineOutputService : IOutputService
 	{
