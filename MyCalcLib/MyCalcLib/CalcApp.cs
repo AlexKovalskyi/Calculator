@@ -10,8 +10,10 @@ namespace CalculatorLib
         private Calculator _calc;
         private IInputService _inputService;
         private IOutputService _outputService;
+		private IOutputHardOperation _outputHardOperation;
 
-        public CalcApp(Calculator calc, IInputService inputService, IOutputService outputService)
+
+		public CalcApp(Calculator calc, IInputService inputService, IOutputService outputService)
         {
             _calc = calc;
             _inputService = inputService;
@@ -49,6 +51,18 @@ namespace CalculatorLib
 						operationDelegate = _calc.Modulo;
 						break;
 
+					case OperationType.Sqrt:
+						operationDelegate = _calc.Sqrt;
+						break;
+
+					case OperationType.Sqr:
+						operationDelegate = _calc.Sqr;
+						break;
+
+					case OperationType.Sqr2:
+						operationDelegate = _calc.Sqr2;
+						break;
+
 					case OperationType.NOP:
 						continue;
 
@@ -57,12 +71,19 @@ namespace CalculatorLib
 					throw new Exception();
 				}
 
+				if (operationDelegate == _calc.Sqrt)
+				{
+
+					double result = operationDelegate.Invoke(arguments);
+					_outputHardOperation.PrintHardOperation(arguments.A, (char)operation, result);
+				}
+
 				if (operationDelegate != null)
 				{
-					int result = operationDelegate.Invoke(arguments);
+					double result = operationDelegate.Invoke(arguments);
 					_outputService.Print(arguments.A, (char)operation, arguments.B, result);
 				}
-            } while (operation != OperationType.NOP && arguments != null);
+			} while (operation != OperationType.NOP && arguments != null);
 		}
     }
 }

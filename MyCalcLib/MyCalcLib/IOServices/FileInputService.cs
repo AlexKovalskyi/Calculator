@@ -33,8 +33,8 @@ namespace CalculatorLab.IOServices
 				return null;
 			}
 			string[] symbol = tasks[cursor].Split(' ');
-			int firstNumber = Convert.ToInt32(symbol[0]);
-			int secondNumber = Convert.ToInt32(symbol[2]);
+			double firstNumber = Convert.ToInt32(symbol[0]);
+			double secondNumber = Convert.ToInt32(symbol[2]);
 			Arguments arguments = new Arguments(firstNumber, secondNumber);
 			cursor++;
 

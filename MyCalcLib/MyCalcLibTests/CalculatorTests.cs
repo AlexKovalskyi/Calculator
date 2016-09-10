@@ -16,7 +16,7 @@ namespace CalcLibTests
 			int expected = 11+3;
             // act
             Calculator c = new Calculator();
-			int actual = c.Sum(args);
+			double actual = c.Sum(args);
 
 			//assert
 			Assert.AreEqual(expected, actual);
@@ -28,7 +28,7 @@ namespace CalcLibTests
 			int expected = 11*3;
 
             Calculator calc = new Calculator();
-			int actual = calc.Multiply(args);
+			double actual = calc.Multiply(args);
 
 			Assert.AreEqual(actual, expected);
 		}
@@ -38,7 +38,7 @@ namespace CalcLibTests
 		{
 			int expected = 11-3;
             Calculator calc = new Calculator();
-			int actual = calc.Substract(args);
+			double actual = calc.Substract(args);
 
 			Assert.AreEqual(actual,expected);
 		}
@@ -49,7 +49,7 @@ namespace CalcLibTests
 		{
 			int expected = 11 / 3;
             Calculator calc = new Calculator();
-			float actual = calc.Divide(args);
+			double actual = calc.Divide(args);
 
 			Assert.AreEqual(actual, expected);
 		}
@@ -59,7 +59,7 @@ namespace CalcLibTests
 		{
 			int expected = 11 % 3;
             Calculator calc = new Calculator();
-			int actual = calc.Modulo(args);
+			double actual = calc.Modulo(args);
 
 			Assert.AreEqual(actual, expected);
 		}

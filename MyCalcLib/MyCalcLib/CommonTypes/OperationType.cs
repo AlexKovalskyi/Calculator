@@ -7,7 +7,10 @@
         Sub = '-',
         Mul = '*',
         Div = '/',
-        Mod = '%'
+        Mod = '%',
+		Sqrt = 't',
+		Sqr = 'r',
+		Sqr2 = 's'
     }
 	
 }

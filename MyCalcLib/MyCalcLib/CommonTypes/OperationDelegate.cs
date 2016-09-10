@@ -2,5 +2,5 @@
 
 namespace CalculatorLib
 {
-    public delegate int OperationDelegate(Arguments arguments);
+    public delegate double OperationDelegate(Arguments arguments);
 }

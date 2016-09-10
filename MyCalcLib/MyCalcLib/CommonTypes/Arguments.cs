@@ -2,11 +2,13 @@
 {
     public class Arguments
     {
-        public int A { get; private set; }
+        public double A { get; private set; }
         
-        public int B { get; private set; }
+        public double B { get; private set; }
 
-        public Arguments (int firstNumb, int secondNumb)
+		public Arguments(double firstNumb) : this(firstNumb, 0) { }
+
+        public Arguments (double firstNumb, double secondNumb)
         {
             A = firstNumb;
             B = secondNumb;

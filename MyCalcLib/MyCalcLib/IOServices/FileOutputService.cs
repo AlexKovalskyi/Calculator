@@ -21,7 +21,7 @@ namespace CalculatorLab.IOServices
 			Initialize();
 		}
 
-		public void Print(int firstNumb, char operation, int secondNumb, int result)
+		public void Print(double firstNumb, char operation, double secondNumb, double result)
 		{
 			using(StreamWriter streamWriter = new StreamWriter(fullPath, APPENDABLE))
 			{

@@ -13,13 +13,11 @@ namespace CalculatorLib.IOServices
             outputService = new CmdLineOutputService();
             outputService.RequestFirstNumber();
 	
-			int firstNumber = Convert.ToInt32(Console.ReadLine());
+			double firstNumber = Convert.ToInt32(Console.ReadLine());
 			outputService.RequestSecondNumber();
-			int secondNumber = Convert.ToInt32(Console.ReadLine());
+			double secondNumber = Convert.ToInt32(Console.ReadLine());
 
-			Arguments arguments = new Arguments(firstNumber, secondNumber);
-			
-		
+			Arguments arguments = new Arguments(firstNumber, secondNumber = 0);
 			return arguments;
 		}
 
