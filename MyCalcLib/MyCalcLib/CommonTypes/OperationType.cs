@@ -9,8 +9,8 @@
         Div = '/',
         Mod = '%',
 		Sqrt = 't',
-		Sqr = 'r',
-		Sqr2 = 's'
+		Pow2 = 'r',
+		Pow3 = 's'
     }
 	
 }

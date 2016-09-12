@@ -6,7 +6,7 @@ namespace CalculatorLab.IOServices
 {
 	public class FileOutputService : IOutputService
 	{
-		private const bool APPENDABLE = true;
+		private const bool IS_APPENDABLE = true;
 		private string _outputFile;
 		private string fullPath;
 
@@ -23,10 +23,15 @@ namespace CalculatorLab.IOServices
 
 		public void Print(double firstNumb, char operation, double secondNumb, double result)
 		{
-			using(StreamWriter streamWriter = new StreamWriter(fullPath, APPENDABLE))
+			using(StreamWriter streamWriter = new StreamWriter(fullPath, IS_APPENDABLE))
 			{
 				streamWriter.WriteLine("{0} {1} {2} = {3}", firstNumb, operation, secondNumb, result);
 			}
 		}
+
+	    public void PrintUnaryOperation(double firstNumb, char operation, double result)
+	    {
+	        throw new NotImplementedException();
+	    }
 	}
 }

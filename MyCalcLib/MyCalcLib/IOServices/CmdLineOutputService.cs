@@ -3,16 +3,16 @@ using System;
 
 namespace CalculatorLib.IOServices
 {
-	public class CmdLineOutputService : IOutputService, IOutputHardOperation
+	public class CmdLineOutputService : IOutputService
 	{
 		public void Print(double firstNumb, char operation, double secondNumb, double result)
 		{
 			Console.WriteLine("{0} {1} {2} = {3}", firstNumb, operation, secondNumb, result);
 		}
 
-		public void PrintHardOperation(double firstNumb, char operation, double result)
+		public void PrintUnaryOperation(double firstNumb, char operation, double result)
 		{
-			Console.WriteLine("{0} {1} = {3}", firstNumb, operation, result);
+			Console.WriteLine("{0} {1} = {2}", firstNumb, operation, result);
 		}
 		
 		public void PrintAvailableOperations () 

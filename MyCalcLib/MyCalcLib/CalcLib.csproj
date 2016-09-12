@@ -44,7 +44,6 @@
     <Compile Include="Core\Calculator.cs" />
     <Compile Include="Core\CalculatorOld.cs" />
     <Compile Include="Interfaces\IInputService.cs" />
-    <Compile Include="Interfaces\IOutputHardOperation.cs" />
     <Compile Include="IOServices\FileInputService.cs" />
     <Compile Include="IOServices\FileOutputService.cs" />
     <Compile Include="IOServices\CmdLineInputService.cs" />

@@ -8,15 +8,46 @@ namespace CalcLibTests
 	[TestClass]
 	public class CalculatorTests
 	{
-		private Arguments args = new Arguments(11, 3);
+		private Arguments args = new Arguments(9, 3);
+        private Calculator calc = new Calculator();
+
+        [TestMethod]
+        public void CheckPow2()
+        {
+            double expected = 81;
+
+            double actual = calc.Pow2(args);
+
+            Assert.AreEqual(expected, actual, "Sqrt operation failed.");
+        }
+
+        [TestMethod]
+        public void CheckPow3()
+        {
+            double expected = 729;
+
+            double actual = calc.Pow3(args);
+
+            Assert.AreEqual(expected, actual, "Sqrt operation failed.");
+        }
+
+        [TestMethod]
+	    public void CheckSqrt()
+        {
+            double expected = 3;
+
+            double actual = calc.Sqrt(args);
+
+            Assert.AreEqual(expected, actual, "Sqrt operation failed.");
+        }
+
 		[TestMethod]
 		public void Sum_10and20_30returned()
 		{
 			//arrange
-			int expected = 11+3;
+			var expected = args.A + args.B;
             // act
-            Calculator c = new Calculator();
-			double actual = c.Sum(args);
+			double actual = calc.Sum(args);
 
 			//assert
 			Assert.AreEqual(expected, actual);
@@ -26,8 +57,7 @@ namespace CalcLibTests
 		public void CheckMultiplication()
 		{
 			int expected = 11*3;
-
-            Calculator calc = new Calculator();
+            
 			double actual = calc.Multiply(args);
 
 			Assert.AreEqual(actual, expected);
@@ -36,8 +66,7 @@ namespace CalcLibTests
 		[TestMethod]
 		public void CheckSubstractrion()
 		{
-			int expected = 11-3;
-            Calculator calc = new Calculator();
+			var expected = args.A - args.B;
 			double actual = calc.Substract(args);
 
 			Assert.AreEqual(actual,expected);
@@ -47,8 +76,7 @@ namespace CalcLibTests
 		[TestMethod]
 		public void CheckDivision()
 		{
-			int expected = 11 / 3;
-            Calculator calc = new Calculator();
+			var expected = args.A / args.B;
 			double actual = calc.Divide(args);
 
 			Assert.AreEqual(actual, expected);
@@ -58,7 +86,7 @@ namespace CalcLibTests
 		public void CheckModulo()
 		{
 			int expected = 11 % 3;
-            Calculator calc = new Calculator();
+            
 			double actual = calc.Modulo(args);
 
 			Assert.AreEqual(actual, expected);
@@ -74,5 +102,5 @@ namespace CalcLibTests
 
 			Assert.AreEqual(expectedName, actualName);
 		}
-	}
+    }
 }
