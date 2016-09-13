@@ -1,5 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CalculatorLib;
 using CalculatorLib.CommonTypes;
 using CalculatorLib.Core;
 
@@ -10,13 +9,15 @@ namespace CalcLibTests
 	{
 		private Arguments args = new Arguments(9, 3);
         private Calculator calc = new Calculator();
+		private OperationType operationType;
 
         [TestMethod]
         public void CheckPow2()
         {
+			operationType = OperationType.Pow2;
             double expected = 81;
 
-            double actual = calc.Pow2(args);
+            double actual = calc.GetFunk(operationType).Invoke(args);
 
             Assert.AreEqual(expected, actual, "Sqrt operation failed.");
         }
@@ -26,9 +27,9 @@ namespace CalcLibTests
         {
             double expected = 729;
 
-            double actual = calc.Pow3(args);
+            double actual = calc.GetFunk(operationType).Invoke(args);
 
-            Assert.AreEqual(expected, actual, "Sqrt operation failed.");
+			Assert.AreEqual(expected, actual, "Sqrt operation failed.");
         }
 
         [TestMethod]
@@ -36,9 +37,9 @@ namespace CalcLibTests
         {
             double expected = 3;
 
-            double actual = calc.Sqrt(args);
+            double actual = calc.GetFunk(operationType).Invoke(args);
 
-            Assert.AreEqual(expected, actual, "Sqrt operation failed.");
+			Assert.AreEqual(expected, actual, "Sqrt operation failed.");
         }
 
 		[TestMethod]
@@ -47,7 +48,7 @@ namespace CalcLibTests
 			//arrange
 			var expected = args.A + args.B;
             // act
-			double actual = calc.Sum(args);
+			double actual = calc.GetFunk(operationType).Invoke(args);
 
 			//assert
 			Assert.AreEqual(expected, actual);
@@ -56,9 +57,10 @@ namespace CalcLibTests
 		[TestMethod]
 		public void CheckMultiplication()
 		{
+
 			int expected = 11*3;
             
-			double actual = calc.Multiply(args);
+			double actual = calc.GetFunk(operationType).Invoke(args);
 
 			Assert.AreEqual(actual, expected);
 		}
@@ -67,7 +69,7 @@ namespace CalcLibTests
 		public void CheckSubstractrion()
 		{
 			var expected = args.A - args.B;
-			double actual = calc.Substract(args);
+			double actual = calc.GetFunk(operationType).Invoke(args);
 
 			Assert.AreEqual(actual,expected);
 		}
@@ -77,7 +79,7 @@ namespace CalcLibTests
 		public void CheckDivision()
 		{
 			var expected = args.A / args.B;
-			double actual = calc.Divide(args);
+			double actual = calc.GetFunk(operationType).Invoke(args);
 
 			Assert.AreEqual(actual, expected);
 		}
@@ -87,7 +89,7 @@ namespace CalcLibTests
 		{
 			int expected = 11 % 3;
             
-			double actual = calc.Modulo(args);
+			double actual = calc.GetFunk(operationType).Invoke(args);
 
 			Assert.AreEqual(actual, expected);
 		}

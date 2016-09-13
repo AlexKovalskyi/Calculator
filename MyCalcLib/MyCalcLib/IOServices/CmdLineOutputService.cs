@@ -17,7 +17,7 @@ namespace CalculatorLib.IOServices
 		
 		public void PrintAvailableOperations () 
 		{
-			Console.WriteLine("Enter one of the operation : +, -, *, /, %"); 
+			Console.WriteLine("Enter one of the operation : +, -, *, /, %, t - Sqrt, r - POW2, s - POW3"); 
 		}
 
 		public void RequestFirstNumber()

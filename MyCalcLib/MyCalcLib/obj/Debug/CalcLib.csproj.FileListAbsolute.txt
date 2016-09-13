@@ -21,7 +21,6 @@ I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.dll
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.pdb
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.dll
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.pdb
-I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalcLib.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.dll
 C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.pdb
 C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.dll

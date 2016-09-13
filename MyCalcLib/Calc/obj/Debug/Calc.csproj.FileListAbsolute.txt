@@ -1,0 +1,8 @@
+I:\GitHub\Calculator\MyCalcLib\Calc\bin\Debug\Calc.exe.config
+I:\GitHub\Calculator\MyCalcLib\Calc\bin\Debug\Calc.exe
+I:\GitHub\Calculator\MyCalcLib\Calc\bin\Debug\Calc.pdb
+I:\GitHub\Calculator\MyCalcLib\Calc\bin\Debug\Calculator.dll
+I:\GitHub\Calculator\MyCalcLib\Calc\bin\Debug\Calculator.pdb
+I:\GitHub\Calculator\MyCalcLib\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
+I:\GitHub\Calculator\MyCalcLib\Calc\obj\Debug\Calc.exe
+I:\GitHub\Calculator\MyCalcLib\Calc\obj\Debug\Calc.pdb

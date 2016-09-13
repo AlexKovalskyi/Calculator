@@ -17,7 +17,7 @@ namespace CalculatorLib.IOServices
 			outputService.RequestSecondNumber();
 			double secondNumber = Convert.ToInt32(Console.ReadLine());
 
-			Arguments arguments = new Arguments(firstNumber, secondNumber = 0);
+			Arguments arguments = new Arguments(firstNumber, secondNumber);
 			return arguments;
 		}
 

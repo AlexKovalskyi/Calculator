@@ -1,14 +1,31 @@
-﻿using System;
-using CalculatorLib.CommonTypes;
+﻿using CalculatorLib.CommonTypes;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CalculatorLib.Core
+namespace Calc
 {
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Func<int> func = () =>
+			{
+				Console.WriteLine("Hello world");
+				return 0;
+			};
+			func();
+			Func<int, int> func2;
+				
+		}
+	}
 	public class Calculator
 	{
-	    private const int POW2 = 2;
-        private const int POW3 = 3;
-		
+		private const int POW2 = 2;
+		private const int POW3 = 3;
+
 		private Dictionary<OperationType, Func<Arguments, double>> operationsDic = new Dictionary<OperationType, Func<Arguments, double>>
 		{
 			{ OperationType.Sum, args => args.A + args.B },
@@ -21,22 +38,7 @@ namespace CalculatorLib.Core
 			{ OperationType.Pow3, args => Math.Pow(args.A, POW3) }
 		};
 
-		public Func<Arguments,double> GetFunk(OperationType operationType)
-		{
-			try
-			{
-				Func<Arguments, double> funk = operationsDic[operationType];
-				return funk;
-			}
-			catch (Exception ex)
-			{
-				Console.WriteLine("Wrong Operation");
-				Func<Arguments, double> funk = null;
-				return funk;
-			}
-		}
-
-		public void AddOperation(OperationType operationType, Func<Arguments, double> value )
+		public void AddOperation(OperationType operationType, Func<Arguments, double> value)
 		{
 			operationsDic.Add(operationType, value);
 		}
