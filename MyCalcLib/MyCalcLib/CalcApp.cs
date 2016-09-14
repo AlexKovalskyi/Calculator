@@ -26,7 +26,6 @@ namespace CalculatorLib
 			{
 				operation = _inputService.ReadOperations();
 				arguments = _inputService.ReadArgs();
-				calc.GetFunk(operation);
 				double result = calc.GetFunk(operation).Invoke(arguments);
 				if (OperationType.Sqrt == operation || OperationType.Pow2 == operation || OperationType.Pow3 == operation)
 				{

@@ -23,17 +23,9 @@ namespace CalculatorLib.Core
 
 		public Func<Arguments,double> GetFunk(OperationType operationType)
 		{
-			try
-			{
-				Func<Arguments, double> funk = operationsDic[operationType];
-				return funk;
-			}
-			catch (Exception ex)
-			{
-				Console.WriteLine("Wrong Operation");
-				Func<Arguments, double> funk = null;
-				return funk;
-			}
+			Func<Arguments, double> func;
+			operationsDic.TryGetValue(operationType, out func);
+			return func;
 		}
 
 		public void AddOperation(OperationType operationType, Func<Arguments, double> value )

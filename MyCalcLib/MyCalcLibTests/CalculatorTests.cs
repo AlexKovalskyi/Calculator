@@ -16,61 +16,53 @@ namespace CalcLibTests
         {
 			operationType = OperationType.Pow2;
             double expected = 81;
-
             double actual = calc.GetFunk(operationType).Invoke(args);
-
             Assert.AreEqual(expected, actual, "Sqrt operation failed.");
         }
 
         [TestMethod]
         public void CheckPow3()
         {
-            double expected = 729;
-
+			operationType = OperationType.Pow3;
+			double expected = 729;
             double actual = calc.GetFunk(operationType).Invoke(args);
-
 			Assert.AreEqual(expected, actual, "Sqrt operation failed.");
         }
 
         [TestMethod]
 	    public void CheckSqrt()
         {
-            double expected = 3;
-
+			operationType = OperationType.Sqrt;
+			double expected = 3;
             double actual = calc.GetFunk(operationType).Invoke(args);
 
 			Assert.AreEqual(expected, actual, "Sqrt operation failed.");
         }
 
 		[TestMethod]
-		public void Sum_10and20_30returned()
+		public void CheckSumm()
 		{
-			//arrange
-			var expected = args.A + args.B;
-            // act
+			operationType = OperationType.Sum;
+			double expected = args.A + args.B;
 			double actual = calc.GetFunk(operationType).Invoke(args);
-
-			//assert
 			Assert.AreEqual(expected, actual);
 		}
 		
 		[TestMethod]
 		public void CheckMultiplication()
 		{
-
-			int expected = 11*3;
-            
+			operationType = OperationType.Mul;
+			double expected = 9*3;
 			double actual = calc.GetFunk(operationType).Invoke(args);
-
 			Assert.AreEqual(actual, expected);
 		}
 		
 		[TestMethod]
 		public void CheckSubstractrion()
 		{
-			var expected = args.A - args.B;
+			operationType = OperationType.Sub;
+			double  expected = args.A - args.B;
 			double actual = calc.GetFunk(operationType).Invoke(args);
-
 			Assert.AreEqual(actual,expected);
 		}
 
@@ -78,19 +70,18 @@ namespace CalcLibTests
 		[TestMethod]
 		public void CheckDivision()
 		{
-			var expected = args.A / args.B;
+			operationType = OperationType.Div;
+			double expected = args.A / args.B;
 			double actual = calc.GetFunk(operationType).Invoke(args);
-
 			Assert.AreEqual(actual, expected);
 		}
 
 		[TestMethod]
 		public void CheckModulo()
 		{
-			int expected = 11 % 3;
-            
+			operationType = OperationType.Mod;
+			double expected = args.A % args.B;
 			double actual = calc.GetFunk(operationType).Invoke(args);
-
 			Assert.AreEqual(actual, expected);
 		}
 
@@ -99,9 +90,7 @@ namespace CalcLibTests
 		public void CheckClassName()
 		{
 			string expectedName = "Calculator";
-
 			string actualName = nameof(CalculatorLab);
-
 			Assert.AreEqual(expectedName, actualName);
 		}
     }
