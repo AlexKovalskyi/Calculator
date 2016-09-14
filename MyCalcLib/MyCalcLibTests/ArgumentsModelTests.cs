@@ -28,7 +28,7 @@ namespace CalcLibTests
             {
                 if (prop.Name == "A")
                 {
-                    if (prop.PropertyType != typeof(int))
+                    if (prop.PropertyType != typeof(double))
                     {
                         throw new Exception("Property is not type of int.");
                     }
@@ -48,7 +48,7 @@ namespace CalcLibTests
             {
                 if (prop.Name == "B")
                 {
-                    if (prop.PropertyType != typeof(int))
+                    if (prop.PropertyType != typeof(double))
                     {
                         throw new Exception("Property is not type of int.");
                     }

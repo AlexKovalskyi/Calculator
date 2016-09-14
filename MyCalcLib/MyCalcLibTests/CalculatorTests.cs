@@ -90,7 +90,7 @@ namespace CalcLibTests
 		public void CheckClassName()
 		{
 			string expectedName = "Calculator";
-			string actualName = nameof(CalculatorLab);
+			string actualName = nameof(Calculator);
 			Assert.AreEqual(expectedName, actualName);
 		}
     }
