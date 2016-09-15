@@ -1,4 +1,4 @@
-﻿using CalculatorLab.IOServices;
+﻿using static GlobalLogger.GLogger;
 using CalculatorLib.Core;
 using CalculatorLib.Interfaces;
 using CalculatorLib.IOServices;
@@ -12,6 +12,7 @@ namespace CalculatorLib
 		{
 			try
 			{
+				Logger.Info("Starting Calculator's work.");
                 Calculator calc = new Calculator();
 				IInputService inputService = new CmdInputService();
 				IOutputService outputService = new CmdLineOutputService();
@@ -23,6 +24,7 @@ namespace CalculatorLib
 			{
 				Console.WriteLine("Error : please try again. Maybe you are using wrong argments.");
 				Console.WriteLine("Program will be close.");
+				Logger.Error(ex, "Main program is broke");
 				Console.ReadLine();
 			}
 		}

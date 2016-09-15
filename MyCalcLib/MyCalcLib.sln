@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConsoleApp", "Cal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedCodeSnippets", "MyManualTest\SharedCodeSnippets.csproj", "{A768B3E4-CB51-4EEA-B379-F80B539A8433}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalLogger", "GlobalLogger\GlobalLogger.csproj", "{5A99EC8B-610C-4A49-91E4-C2244CBE8953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A768B3E4-CB51-4EEA-B379-F80B539A8433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A768B3E4-CB51-4EEA-B379-F80B539A8433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A768B3E4-CB51-4EEA-B379-F80B539A8433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A99EC8B-610C-4A49-91E4-C2244CBE8953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A99EC8B-610C-4A49-91E4-C2244CBE8953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A99EC8B-610C-4A49-91E4-C2244CBE8953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A99EC8B-610C-4A49-91E4-C2244CBE8953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,46 @@
+    2016-09-15 19:15:39.1566 INFO: Starting Calculator's work.
+(AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main) 
+    2016-09-15 19:15:39.2246 INFO: Calculator using 0 times
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:15:40.5967 INFO: Operation assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:15:43.6029 INFO: Arguments assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:15:43.6029 INFO: Calculator using 1 times
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:15:48.9486 INFO: Operation assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:15:50.1945 ERROR: Main program is broke
+(AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main) System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в CalculatorLib.IOServices.CmdInputService.ReadArgs() в I:\GitHub\Calculator\MyCalcLib\MyCalcLib\IOServices\CmdLineInputService.cs:строка 16
+   в CalculatorLib.CalcApp.Run() в I:\GitHub\Calculator\MyCalcLib\MyCalcLib\CalcApp.cs:строка 33
+   в CalculatorLib.Program.Main(String[] args) в I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\Program.cs:строка 20
+    2016-09-15 19:29:47.9876 INFO: Starting Calculator's work.
+(AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main) 
+    2016-09-15 19:29:48.0336 INFO: Calculator using 1 times
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:29:50.3750 INFO: Operation assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:29:52.7088 INFO: Arguments assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:29:52.7158 INFO: Calculator using 2 times
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:29:54.3275 INFO: Operation assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:29:57.2973 INFO: Arguments assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:29:57.2973 INFO: Calculator using 3 times
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:30:03.0320 INFO: Operation assigned correctly
+(AppDomain._nExecuteAssembly => Program.Main => CalcApp.Run) 
+    2016-09-15 19:30:04.3372 ERROR: Main program is broke
+(AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main) System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Convert.ToInt32(String value)
+   в CalculatorLib.IOServices.CmdInputService.ReadArgs() в I:\GitHub\Calculator\MyCalcLib\MyCalcLib\IOServices\CmdLineInputService.cs:строка 16
+   в CalculatorLib.CalcApp.Run() в I:\GitHub\Calculator\MyCalcLib\MyCalcLib\CalcApp.cs:строка 32
+   в CalculatorLib.Program.Main(String[] args) в I:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\Program.cs:строка 20

@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.3.8\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,9 +51,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GlobalLogger\GlobalLogger.csproj">
+      <Project>{5a99ec8b-610c-4a49-91e4-c2244cbe8953}</Project>
+      <Name>GlobalLogger</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyCalcLib\CalcLib.csproj">
       <Project>{907cf36d-adfa-45c7-a644-efd5e6caff96}</Project>
       <Name>CalcLib</Name>

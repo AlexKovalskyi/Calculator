@@ -1,4 +1,5 @@
-﻿using CalculatorLib.CommonTypes;
+﻿using static GlobalLogger.GLogger;
+using CalculatorLib.CommonTypes;
 using CalculatorLib.Core;
 using CalculatorLib.Interfaces;
 
@@ -16,7 +17,7 @@ namespace CalculatorLib
             _inputService = inputService;
             _outputService = outputService;
         }
-
+		
         public void Run()
         {
 			OperationType operation;
@@ -24,8 +25,11 @@ namespace CalculatorLib
 			Calculator calc = new Calculator();
 			do
 			{
+				Logger.Debug("Calculator using {0} times", ++RunAmount);
 				operation = _inputService.ReadOperations();
+				Logger.Info("Operation assigned correctly");
 				arguments = _inputService.ReadArgs();
+				Logger.Info("Arguments assigned correctly");
 				double result = calc.GetFunk(operation).Invoke(arguments);
 				if (OperationType.Sqrt == operation || OperationType.Pow2 == operation || OperationType.Pow3 == operation)
 				{

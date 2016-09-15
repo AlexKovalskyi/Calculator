@@ -1,0 +1,8 @@
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.config
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\GlobalLogger.dll
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\GlobalLogger.pdb
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.dll
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.xml
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.dll
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.pdb
+I:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.csprojResolveAssemblyReference.cache
