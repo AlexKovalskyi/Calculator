@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CalculatorLib.CalcApp" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAgAAI=</HashCode>
+      <FileName>CalcApp.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CalculatorLib.CommonTypes.Arguments">
+    <Position X="7.25" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>CommonTypes\Arguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorLib.Core.Calculator">
+    <Position X="10" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAM=</HashCode>
+      <FileName>Core\Calculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CalculatorLib.IOServices.CmdInputService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>IOServices\CmdLineInputService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CalculatorLib.IOServices.CmdLineOutputService" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAQAEAIA=</HashCode>
+      <FileName>IOServices\CmdLineOutputService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.46" Collapsed="true" />
+  </Class>
+  <Class Name="CalculatorLab.IOServices.FileInputService" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAEAAAACCAAAAAAAAAoAAAAAAAAAAAA=</HashCode>
+      <FileName>IOServices\FileInputService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CalculatorLab.IOServices.FileOutputService" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIQAAAAAAAAAAAAAAAABAAAAAAAgEAIA=</HashCode>
+      <FileName>IOServices\FileOutputService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="CalculatorLib.Interfaces.ICalcFacade" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Interfaces\ICalcFacade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CalculatorLib.Interfaces.IInputService" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IInputService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CalculatorLib.Interfaces.IOutputService" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Interfaces\IOutputService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CalculatorLib.CommonTypes.OperationType" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAjAAAAAAAAAAQAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>CommonTypes\OperationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="CalculatorLib.OperationDelegate" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonTypes\OperationDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
