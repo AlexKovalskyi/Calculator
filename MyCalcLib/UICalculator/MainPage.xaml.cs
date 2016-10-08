@@ -26,5 +26,7 @@ namespace UICalculator
         {
             this.InitializeComponent();
         }
+
+
     }
 }
