@@ -1,0 +1,46 @@
+﻿<Window x:Class="CalculatorUI.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculatorUI"
+        mc:Ignorable="d"
+        Title="Calculator" Height="350" Width="525">
+    <Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<TextBox Text="{Binding Result, Mode=TwoWay}" HorizontalAlignment="Stretch" Grid.ColumnSpan="4" Height="150"/>
+		<Button x:Name="buthDB" Content="DB +16"  Grid.Row="1" Grid.Column="1"/>
+		<Button x:Name="buthClear" Content="C" Grid.Row="1"/>
+		<Button x:Name="buth3" Content="3" Grid.Row="2"/>
+		<Button x:Name="buth2" Content="2" Grid.Row="3"/>
+		<Button x:Name="buth1" Content="1" Grid.Row="4"/>
+		<Button x:Name="buth0" Content="0" Grid.Row="5"/>
+		<Button x:Name="buth6" Content="6" Grid.Row="2" Grid.Column="1"/>
+		<Button x:Name="buth5" Content="5" Grid.Row="3" Grid.Column="1"/>
+		<Button x:Name="buth4" Content="4" Grid.Row="4" Grid.Column="1"/>
+		<Button x:Name="buthAdd" Content="+" Grid.Row="5" Grid.Column="1"/>
+		<Button x:Name="buth9" Content="9" Grid.Row="2" Grid.Column="2"/>
+		<Button x:Name="buth8" Content="8" Grid.Row="3" Grid.Column="2"/>
+		<Button x:Name="buth7" Content="7" Grid.Row="4" Grid.Column="2"/>
+		<Button x:Name="buthSub" Content="-" Grid.Row="5" Grid.Column="2"/>
+		<Button x:Name="buthPow3" Content="Pow3"  Grid.Row="3"  Grid.Column="3"/>
+		<Button x:Name="buthDiv" Content="/" Grid.Row="2" Grid.Column="3"/>
+		<Button x:Name="buthMul" Content="*" Grid.Row="4" Grid.Column="3"/>
+		<Button x:Name="buthEqual" Content="=" Grid.Row="5" Grid.Column="3"/>
+		<Button x:Name="buthPow2" Content="Po2"  Grid.Row="1" Grid.Column="3"/>
+		<Button x:Name="buthMod" Content="%" Grid.Row="1" Grid.Column="2"/>
+	</Grid>
+</Window>

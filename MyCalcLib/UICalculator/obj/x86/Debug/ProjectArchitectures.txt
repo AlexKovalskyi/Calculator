@@ -1,1 +1,0 @@
-E:\GitHub\Calculator\MyCalcLib\UICalculator\UICalculator.csproj;x86
