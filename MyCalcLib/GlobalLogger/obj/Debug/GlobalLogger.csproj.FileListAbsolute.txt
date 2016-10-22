@@ -11,6 +11,6 @@ E:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\GlobalLogger.dll
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\GlobalLogger.pdb
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.dll
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.xml
-E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.csprojResolveAssemblyReference.cache
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.dll
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.pdb
+E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.csprojResolveAssemblyReference.cache

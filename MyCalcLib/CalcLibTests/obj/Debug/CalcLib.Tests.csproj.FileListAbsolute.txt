@@ -52,3 +52,16 @@ C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLibTests\bin\Debug\ru
 C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLibTests\obj\Debug\CalcLib.Tests.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.dll
 C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLibTests\obj\Debug\MyCalcLibTests.pdb
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\NLog.config
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\MyCalcLibTests.dll
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\MyCalcLibTests.pdb
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\Calculator.dll
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\GlobalLogger.dll
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\NLog.dll
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\Calculator.pdb
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\GlobalLogger.pdb
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\bin\Debug\NLog.xml
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\obj\Debug\CalcLib.Tests.csprojResolveAssemblyReference.cache
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\obj\Debug\MyCalcLibTests.dll
+E:\GitHub\Calculator\MyCalcLib\CalcLibTests\obj\Debug\MyCalcLibTests.pdb

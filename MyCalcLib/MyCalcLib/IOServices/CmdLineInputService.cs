@@ -23,7 +23,6 @@ namespace CalculatorLib.IOServices
 
 		public OperationType ReadOperations()
 		{
-
 			outputService = new CmdLineOutputService();
 			outputService.PrintAvailableOperations();
 			return (OperationType)Convert.ToChar(Console.ReadLine());

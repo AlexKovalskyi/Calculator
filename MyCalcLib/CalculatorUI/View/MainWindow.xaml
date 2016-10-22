@@ -3,9 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CalculatorUI"
+        xmlns:local="clr-namespace:CalculatorUI.ViewModel"
         mc:Ignorable="d"
         Title="Calculator" Height="350" Width="525">
+
+	<Window.DataContext>
+		<local:MainViewModel/>
+	</Window.DataContext>
+
     <Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition/>
@@ -21,26 +26,26 @@
 			<RowDefinition/>
 			<RowDefinition/>
 		</Grid.RowDefinitions>
-		<TextBox Text="{Binding Result, Mode=TwoWay}" HorizontalAlignment="Stretch" Grid.ColumnSpan="4" Height="150"/>
-		<Button x:Name="buthDB" Content="DB +16"  Grid.Row="1" Grid.Column="1"/>
-		<Button x:Name="buthClear" Content="C" Grid.Row="1"/>
-		<Button x:Name="buth3" Content="3" Grid.Row="2"/>
-		<Button x:Name="buth2" Content="2" Grid.Row="3"/>
-		<Button x:Name="buth1" Content="1" Grid.Row="4"/>
-		<Button x:Name="buth0" Content="0" Grid.Row="5"/>
-		<Button x:Name="buth6" Content="6" Grid.Row="2" Grid.Column="1"/>
-		<Button x:Name="buth5" Content="5" Grid.Row="3" Grid.Column="1"/>
-		<Button x:Name="buth4" Content="4" Grid.Row="4" Grid.Column="1"/>
-		<Button x:Name="buthAdd" Content="+" Grid.Row="5" Grid.Column="1"/>
-		<Button x:Name="buth9" Content="9" Grid.Row="2" Grid.Column="2"/>
-		<Button x:Name="buth8" Content="8" Grid.Row="3" Grid.Column="2"/>
-		<Button x:Name="buth7" Content="7" Grid.Row="4" Grid.Column="2"/>
-		<Button x:Name="buthSub" Content="-" Grid.Row="5" Grid.Column="2"/>
-		<Button x:Name="buthPow3" Content="Pow3"  Grid.Row="3"  Grid.Column="3"/>
-		<Button x:Name="buthDiv" Content="/" Grid.Row="2" Grid.Column="3"/>
-		<Button x:Name="buthMul" Content="*" Grid.Row="4" Grid.Column="3"/>
-		<Button x:Name="buthEqual" Content="=" Grid.Row="5" Grid.Column="3"/>
-		<Button x:Name="buthPow2" Content="Po2"  Grid.Row="1" Grid.Column="3"/>
-		<Button x:Name="buthMod" Content="%" Grid.Row="1" Grid.Column="2"/>
+		<TextBox x:Name="scoreboard" Text="{Binding Expression, Mode=TwoWay}" HorizontalAlignment="Stretch" Grid.ColumnSpan="4"/>
+		<Button x:Name="butnDB" Content="DB +16"  Grid.Row="1" Grid.Column="1"/>
+		<Button x:Name="butnClear" Content="C" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Grid.Row="1"/>
+		<Button x:Name="butn3" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="3" Grid.Row="2"/>
+		<Button x:Name="butn2" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="2" Grid.Row="3"/>
+		<Button x:Name="butn1" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="1" Grid.Row="4"/>
+		<Button x:Name="butn0" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="0" Grid.Row="5"/>
+		<Button x:Name="butn6" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="6" Grid.Row="2" Grid.Column="1"/>
+		<Button x:Name="butn5" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="5" Grid.Row="3" Grid.Column="1"/>
+		<Button x:Name="butn4" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="4" Grid.Row="4" Grid.Column="1"/>
+		<Button x:Name="butnAdd" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="+" Grid.Row="5" Grid.Column="1"/>
+		<Button x:Name="butn9" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="9" Grid.Row="2" Grid.Column="2"/>
+		<Button x:Name="butn8" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="8" Grid.Row="3" Grid.Column="2"/>
+		<Button x:Name="butn7" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="7" Grid.Row="4" Grid.Column="2"/>
+		<Button x:Name="butnSub" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="-" Grid.Row="5" Grid.Column="2"/>
+		<Button x:Name="butnPow3" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="^3" Grid.Row="3" Grid.Column="3"/>
+		<Button x:Name="butnDiv" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="/" Grid.Row="2" Grid.Column="3"/>
+		<Button x:Name="butnMul" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="*" Grid.Row="4" Grid.Column="3"/>
+		<Button x:Name="butnEqual" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="=" Grid.Row="5" Grid.Column="3"/>
+		<Button x:Name="butnPow2" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="^2"  Grid.Row="1" Grid.Column="3"/>
+		<Button x:Name="butnMod" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="%" Grid.Row="1" Grid.Column="2"/>
 	</Grid>
 </Window>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,18 +8,42 @@ using System.Windows.Input;
 
 namespace CalculatorUI.ViewModel
 {
-	public class Command : ICommand
+	internal class Command : ICommand
 	{
-		public event EventHandler CanExecuteChanged;
+		private readonly Action<object> _execute;
+		private readonly Predicate<object> _canExecute;
+
+		public Command(Action<object> execute)
+			: this(execute, null)
+		{
+
+		}
+
+		public Command(Action<object> execute, Predicate<object> canExecute)
+		{
+			if (execute == null)
+				throw new ArgumentNullException(nameof(execute), "Argument must not be null.");
+
+			_execute = execute;
+			_canExecute = canExecute;
+		}
+
+		public event EventHandler CanExecuteChanged
+		{
+			add { CommandManager.RequerySuggested += value; }
+			remove { CommandManager.RequerySuggested -= value; }
+		}
+
+		public void Execute(object parameters)
+		{
+			_execute(parameters);
+		}
 
 		public bool CanExecute(object parameter)
 		{
-			throw new NotImplementedException();
-		}
+			var result = _canExecute == null ? true : _canExecute(parameter);
 
-		public void Execute(object parameter)
-		{
-			throw new NotImplementedException();
+			return result;
 		}
 	}
 }

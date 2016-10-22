@@ -7,8 +7,8 @@
     <ProjectGuid>{907CF36D-ADFA-45C7-A644-EFD5E6CAFF96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Calculator</RootNamespace>
-    <AssemblyName>Calculator</AssemblyName>
+    <RootNamespace>CalculatorLib</RootNamespace>
+    <AssemblyName>CalculatorLib</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -56,6 +56,7 @@
     <Compile Include="CommonTypes\OperationDelegate.cs" />
     <Compile Include="CommonTypes\OperationType.cs" />
     <Compile Include="IOServices\CmdLineOutputService.cs" />
+    <Compile Include="IOServices\UIInputService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CommonTypes\Arguments.cs" />
   </ItemGroup>
