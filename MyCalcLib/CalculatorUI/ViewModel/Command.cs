@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace CalculatorUI.ViewModel
@@ -16,7 +11,6 @@ namespace CalculatorUI.ViewModel
 		public Command(Action<object> execute)
 			: this(execute, null)
 		{
-
 		}
 
 		public Command(Action<object> execute, Predicate<object> canExecute)

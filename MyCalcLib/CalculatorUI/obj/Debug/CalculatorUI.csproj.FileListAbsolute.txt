@@ -19,3 +19,4 @@ E:\GitHub\Calculator\MyCalcLib\CalculatorUI\obj\Debug\View\MainWindow.baml
 E:\GitHub\Calculator\MyCalcLib\CalculatorUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\GitHub\Calculator\MyCalcLib\CalculatorUI\bin\Debug\CalculatorLib.dll
 E:\GitHub\Calculator\MyCalcLib\CalculatorUI\bin\Debug\CalculatorLib.pdb
+E:\GitHub\Calculator\MyCalcLib\CalculatorUI\bin\Debug\NLog.config

@@ -8,9 +8,9 @@
         Mul = '*',
         Div = '/',
         Mod = '%',
-		Sqrt = 't',
-		Pow2 = 'r',
-		Pow3 = 's'
+		Sqrt = '√',
+		Pow2 = '^',
+		Pow3 = 'O'
     }
 	
 }

@@ -27,7 +27,8 @@
 			<RowDefinition/>
 		</Grid.RowDefinitions>
 		<TextBox x:Name="scoreboard" Text="{Binding Expression, Mode=TwoWay}" HorizontalAlignment="Stretch" Grid.ColumnSpan="4"/>
-		<Button x:Name="butnDB" Content="DB +16"  Grid.Row="1" Grid.Column="1"/>
+		<Button x:Name="butnEqual" Command="{Binding ResultCommand, Mode=OneWay}" Content="=" Grid.Row="5" Grid.Column="3"/>
+		<Button x:Name="butnDB" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="√" Grid.Row="1" Grid.Column="1"/>
 		<Button x:Name="butnClear" Content="C" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Grid.Row="1"/>
 		<Button x:Name="butn3" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="3" Grid.Row="2"/>
 		<Button x:Name="butn2" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="2" Grid.Row="3"/>
@@ -44,7 +45,6 @@
 		<Button x:Name="butnPow3" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="^3" Grid.Row="3" Grid.Column="3"/>
 		<Button x:Name="butnDiv" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="/" Grid.Row="2" Grid.Column="3"/>
 		<Button x:Name="butnMul" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="*" Grid.Row="4" Grid.Column="3"/>
-		<Button x:Name="butnEqual" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="=" Grid.Row="5" Grid.Column="3"/>
 		<Button x:Name="butnPow2" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="^2"  Grid.Row="1" Grid.Column="3"/>
 		<Button x:Name="butnMod" Command="{Binding ClickCommand, Mode=OneWay}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" Content="%" Grid.Row="1" Grid.Column="2"/>
 	</Grid>

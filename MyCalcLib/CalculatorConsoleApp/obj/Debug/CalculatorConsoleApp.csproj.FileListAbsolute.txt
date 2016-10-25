@@ -63,10 +63,10 @@ E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleA
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\NLog.config
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
-E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\Calculator.dll
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\GlobalLogger.dll
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\NLog.dll
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\GlobalLogger.pdb
-E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\Calculator.pdb
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\NLog.xml
 E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csprojResolveAssemblyReference.cache
+E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorLib.dll
+E:\GitHub\Calculator\MyCalcLib\CalculatorConsoleApp\bin\Debug\CalculatorLib.pdb

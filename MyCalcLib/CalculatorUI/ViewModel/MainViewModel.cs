@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
 using CalculatorLib.Core;
-using CalculatorLib.Interfaces;
-using System.Windows.Media.Animation;
-using System.Windows;
 using System.Windows.Input;
-using System.Text.RegularExpressions;
+using CalculatorLib.CommonTypes;
+using CalculatorLib.IOServices;
+using System.Diagnostics;
 
 namespace CalculatorUI.ViewModel
 {
@@ -46,14 +40,23 @@ namespace CalculatorUI.ViewModel
 			}
 			else
 			{
-				throw new ArgumentException();
+				throw new ArgumentException(nameof(GetBtnValue), "Wrong parameter");
 			}
 		}
 
 		public void GetResult(object parameter)
 		{
+			Arguments arguments;
+			OperationType operation;
+			Calculator calc = new Calculator();
+			UIInputService inpuService = new UIInputService(expression);
+			arguments = inpuService.ReadArgs();
 
+			Debug.WriteLine(arguments);
+			operation = inpuService.ReadOperations();
 
+			Debug.WriteLine(operation);
+			Expression = calc.GetFunk(operation).Invoke(arguments).ToString();
 
 		}
 

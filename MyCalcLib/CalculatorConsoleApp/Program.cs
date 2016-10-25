@@ -24,7 +24,7 @@ namespace CalculatorLib
 			{
 				Console.WriteLine("Error : please try again. Maybe you are using wrong argments.");
 				Console.WriteLine("Program will be close.");
-				Logger.Error(ex, "Main program is broke");
+				Logger.Error(ex, "Main program is broken");
 				Console.ReadLine();
 			}
 		}
