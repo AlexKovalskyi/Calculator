@@ -30,6 +30,7 @@ namespace CalculatorUI.ViewModel
 
 		public void GetBtnValue(object parameter)
 		{
+            //TODO: Fix all path execs
 			if (parameter.ToString() == "C")
 			{
 				Expression = string.Empty;
@@ -38,9 +39,9 @@ namespace CalculatorUI.ViewModel
 			{
 				Expression += parameter;
 			}
-			else
+			else if (parameter == null)
 			{
-				throw new ArgumentException(nameof(GetBtnValue), "Wrong parameter");
+				throw new ArgumentException(nameof(GetBtnValue), "Wrong parameter.");
 			}
 		}
 
@@ -57,8 +58,6 @@ namespace CalculatorUI.ViewModel
 
 			Debug.WriteLine(operation);
 			Expression = calc.GetFunk(operation).Invoke(arguments).ToString();
-
 		}
-
 	}
 }

@@ -21,10 +21,6 @@ I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.dll
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.pdb
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.dll
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.pdb
-C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.dll
-C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\Calculator.pdb
-C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.dll
-C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\obj\Debug\Calculator.pdb
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalcLib.csprojResolveAssemblyReference.cache
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\NLog.config
 I:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\GlobalLogger.dll
@@ -41,3 +37,13 @@ E:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\CalculatorLib.dll
 E:\GitHub\Calculator\MyCalcLib\MyCalcLib\bin\Debug\CalculatorLib.pdb
 E:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalculatorLib.dll
 E:\GitHub\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalculatorLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\NLog.config
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\CalculatorLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\CalculatorLib.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\GlobalLogger.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\NLog.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\GlobalLogger.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\bin\Debug\NLog.xml
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalcLib.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalculatorLib.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\MyCalcLib\obj\Debug\CalculatorLib.pdb

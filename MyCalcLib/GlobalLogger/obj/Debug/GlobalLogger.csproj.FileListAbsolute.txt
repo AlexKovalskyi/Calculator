@@ -14,3 +14,11 @@ E:\GitHub\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.xml
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.dll
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.pdb
 E:\GitHub\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.config
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\bin\Debug\GlobalLogger.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\bin\Debug\GlobalLogger.pdb
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\bin\Debug\NLog.xml
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.dll
+C:\Users\LAPTOP-PC\Source\Repos\Calculator\MyCalcLib\GlobalLogger\obj\Debug\GlobalLogger.pdb
