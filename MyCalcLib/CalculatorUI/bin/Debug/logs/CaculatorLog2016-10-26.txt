@@ -1,0 +1,74 @@
+    2016-10-26 23:50:58.5279 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:50:58.5544 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:50:58.5654 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:50:58.5724 INFO: Set operstion Sum
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:50:58.5724 INFO: Set  second number
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:02.2740 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:02.2740 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:02.2740 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:02.2928 INFO: Set operstion Sub
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:02.2928 INFO: Set  second number
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:05.4795 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:05.4795 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:05.4990 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:05.5085 INFO: Set operstion Mul
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:05.5085 INFO: Set  second number
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:10.6530 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:10.6530 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:10.6670 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:10.6670 INFO: Set operstion Div
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:10.6825 INFO: Set  second number
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:12.7876 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:12.7954 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:12.7954 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:12.8094 INFO: Set operation pocer indicator for operation ^.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:14.3225 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:14.3225 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:14.3370 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:14.3370 INFO: Set operation pocer indicator for operation ^.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:19.0577 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:19.0577 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:19.0722 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:19.0722 INFO: Set operation Sqrt.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:23.9945 INFO: Reading expression members.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:23.9945 INFO: Set first number.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:24.0085 INFO: Set operation symbol.
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:24.0085 INFO: Set operstion Mod
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 
+    2016-10-26 23:51:24.0255 INFO: Set  second number
+(MainViewModel.GetResult => UIInputService..ctor => UIInputService.GetExpressionMembers) 

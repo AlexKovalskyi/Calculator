@@ -30,18 +30,17 @@ namespace CalculatorUI.ViewModel
 
 		public void GetBtnValue(object parameter)
 		{
-            //TODO: Fix all path execs
-			if (parameter.ToString() == "C")
+			if (parameter == null)
+			{
+				throw new ArgumentException(nameof(GetBtnValue), "Wrong parameter.");
+			}
+			else if (parameter.ToString() == "C")
 			{
 				Expression = string.Empty;
 			}
 			else if (parameter != null)
 			{
 				Expression += parameter;
-			}
-			else if (parameter == null)
-			{
-				throw new ArgumentException(nameof(GetBtnValue), "Wrong parameter.");
 			}
 		}
 
